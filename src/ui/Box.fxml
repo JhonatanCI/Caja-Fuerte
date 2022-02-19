@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="enterBUT" layoutX="268.0" layoutY="269.0" mnemonicParsing="false" onAction="#verifyKEY" prefHeight="40.0" prefWidth="106.0" text="Enter" />
+      <TextField fx:id="firstTF" layoutX="148.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+      <TextField fx:id="secondTF" layoutX="209.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+      <Label layoutX="217.0" layoutY="83.0" prefHeight="38.0" prefWidth="199.0" text="BOX STRONG" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="32.0" />
+         </font>
+      </Label>
+      <TextField fx:id="thirtTF" layoutX="268.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+      <TextField fx:id="foutrTF" layoutX="333.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+      <TextField fx:id="fiveTF" layoutX="387.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+      <TextField fx:id="sixTF" layoutX="442.0" layoutY="164.0" prefHeight="52.0" prefWidth="48.0" />
+   </children>
+</AnchorPane>
